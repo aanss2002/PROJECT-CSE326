@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<title> SPORTS BLOG </title>
+<hr>
+
+<body style="background-color:gold;">
+<h1><center><i><b>SPORTS BLOG</i></b></center></h1>
+<hr>
+<h4>
+<div style="background-color:black;color:gold;padding:20px;">
+
+<script>
+
+
+
+function validate()
+{
+if(document.getElementById("t1").value=="")
+{
+alert("Please provide your name!");
+document.getElementById("t1").focus();
+return false;
+}
+if(document.getElementById(""t2").value=="")
+{
+alert("Please provide your email!");
+document.getElementById("t2").focus();
+return false;
+}
+if(document.getElementById("t3").value=="-1")
+{
+alert("Please provide your country!");
+return false;
+}
+return(true);
+}
+</script>
+</head>
+<form name="CONTACT US"onsubmit="return(validate());">
+<table cellspacing="2" cellpadding="2" border="1">
+<tr>
+<td align="right">NAME*</td>
+<td><input type="text" name="NAME" id="t1"/></td>
+</tr>
+<tr>
+<td align="right">EMAIL*</td>
+<td><input type="text" name="EMAIL" id="t2"/></td>
+</tr>
+<tr>
+<td align="right">COUNTRY*</td>
+<td>
+<select name="COUNTRY" id="t4">
+<option value="-1" selected>(choose yours)
+</option>
+<option value="1">INDIA</option>
+<option value="2">USA</option>
+</select>
+</td>
+</tr>
+<tr>
+<td align="right"></td>
+<td><input type="submit" value="SUBMIT"/></td>
+</tr>
+</table>
+</form>
+<audio src="ipl.mp3" controls/>
+</h4>
+<h4>
+<div style="background-color:black;color:gold;padding:20px;">
+<p>CREATED BY:-<br>
+AGAM ANMOL NANAK SINGH SETHI<br>
+12109282<br>
+LOVELY PROFESSIONAL UNIVERSITY</p>
+</h4>
+</head>
+</body>
+</html>
